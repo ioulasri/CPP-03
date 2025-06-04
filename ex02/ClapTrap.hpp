@@ -1,9 +1,12 @@
+#ifndef CLAPTRAP_HPP
+# define CLAPTRAP_HPP
+
 # include <iostream>
 # include <string>
 
 class ClapTrap
 {
-private:
+protected:
 	std::string name;
 	unsigned int hitPoints;
 	unsigned int energyPoints;
@@ -27,3 +30,5 @@ public:
 };
 
 std::ostream &operator<<(std::ostream &os, const ClapTrap &clapTrap);
+
+# endif // CLAPTRAP_HPP

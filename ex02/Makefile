@@ -1,5 +1,5 @@
-NAME = Fixed
-SRC = main.cpp Fixed.cpp convert.cpp RawBits.cpp comparison.cpp operator.cpp operator1.cpp
+NAME = Fight
+SRC = main.cpp ClapTrap.cpp ScavTrap.cpp FragTrap.cpp
 OBJ = $(SRC:.cpp=.o)
 CXX = c++
 CXXFLAGS = -Wall -Wextra -Werror -std=c++98
